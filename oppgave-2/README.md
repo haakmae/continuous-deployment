@@ -79,8 +79,6 @@ Når du pusher endringene i en workshop fil til et remote repository på Github,
 
 :pencil2: På venstre side, klikk på action vi har kjørt (`Github Actions Demo`).
 
-![](images/actions-sidebar.png)
-
 :pencil2: Fra listen over workflow runs, velg riktig run (`Github Action run by xxx 🚀`)
 
 :book: Loggen viser hvor mange steg som ble kjørt. Du kan utvide hvert enkelt steg for å se videre detaljer.
@@ -289,6 +287,7 @@ jobs:
 
 Commit og push endringen din til Github, og du skal se følgende output nederst på workflow-siden din. Dette er applikasjonen vår som har blitt bygget og er klar til å deployes.
 
+![](artifact_example.png)
 ---
 
 I denne oppgaven har vi laget en fullstendig CI-pipeline. I neste oppgave skal vi lage opplegg for deploy av koden til Github Pages.
